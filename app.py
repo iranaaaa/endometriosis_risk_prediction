@@ -12,7 +12,7 @@ from src.model import train_xgboost, explain_model_shap
 
 st.set_page_config(page_title="Endometriosis Risk Predictor", layout="wide", page_icon="🌸")
 
-CSV_FILE = r"C:\Users\hp\.gemini\antigravity\scratch\endometriosis_risk_prediction\patients data\patients.csv"
+CSV_FILE = r"C:\Users\hp\Desktop\New folder\endometriosis_risk_prediction (2)\endometriosis_risk_prediction"
 os.makedirs(os.path.dirname(CSV_FILE), exist_ok=True)
 
 def get_base64_of_bin_file(bin_file):
